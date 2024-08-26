@@ -1,3 +1,6 @@
+<img src="https://github.com/AdamAdonyi/Single-Step-Retrosynthesis-Prediction/blob/main/retro_picture.png">
+
+
 # Single-Step Retrosynthesis Prediction
 
 ## Description
