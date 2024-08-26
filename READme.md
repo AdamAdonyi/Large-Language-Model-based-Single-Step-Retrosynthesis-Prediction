@@ -6,7 +6,7 @@ This project focuses on developing methods for single-step retrosynthesis predic
 
 ## Project Overview
 
-The project uses a BART (Bidirectional and Auto-Regressive Transformers) model for the task of retrosynthesis prediction. Here's a brief overview of the main components:
+The project uses a [BART](https://huggingface.co/facebook/bart-large) (Bidirectional and Auto-Regressive Transformers) model for the task of retrosynthesis prediction. Here's a brief overview of the main components:
 
 1. Data Preparation: The input data is processed to separate reactants and products from the SMILES notation.
 2. Model: A pre-trained BART model is used and fine-tuned on the chemical reaction data.
@@ -21,4 +21,20 @@ The project uses a BART (Bidirectional and Auto-Regressive Transformers) model f
 - Transformers
 - Pandas
 - Accelerate
+
+## Usage
+
+1. Prepare your data in a CSV format with reactions in the form "[Reactants' SMILES]>>[Products' SMILES]".
+2. Run the data preparation script to process the input data.
+3. Train the model using the training script.
+4. Use the trained model to make predictions on new product SMILES.
+
+
+## Model
+
+The project uses a [BART](https://huggingface.co/facebook/bart-large) (Bidirectional and Auto-Regressive Transformers) model from the Hugging Face Transformers library. The model is fine-tuned on the chemical reaction data to learn the mapping from products to reactants.
+
+## Evaluation
+
+The model's performance is evaluated using metrics such as validation loss. You can find the evaluation results in the training output.
 
