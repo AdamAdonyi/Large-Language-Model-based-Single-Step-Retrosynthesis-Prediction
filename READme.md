@@ -22,4 +22,3 @@ The project uses a BART (Bidirectional and Auto-Regressive Transformers) model f
 - Pandas
 - Accelerate
 
-You can install the required packages using:
