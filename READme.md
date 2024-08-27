@@ -9,7 +9,7 @@ This project focuses on developing methods for single-step retrosynthesis predic
 
 ## Project Overview
 
-The project uses a [BART](https://huggingface.co/facebook/bart-large) (transformer encoder-decoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder) model for the task of retrosynthesis prediction. Originally it was release in [2019] (https://arxiv.org/abs/1910.13461) originally trained on English language. Here's a brief overview of the main components
+The project uses a [BART](https://huggingface.co/facebook/bart-large) (transformer encoder-decoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder) model for the task of retrosynthesis prediction. Originally it was release in [2019](https://arxiv.org/abs/1910.13461) originally trained on English language. Here's a brief overview of the main components
 
 1. Data Preparation: The input data is processed to separate reactants and products from the SMILES notation.
 2. Model: A pre-trained BART model is used and fine-tuned on the chemical reaction data.
