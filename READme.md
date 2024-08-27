@@ -29,7 +29,7 @@ The project uses a [BART](https://huggingface.co/facebook/bart-large) (transform
 
 ## Model
 
-The project uses a [BART](https://huggingface.co/facebook/bart-large) (Bidirectional and Auto-Regressive Transformers) model from the Hugging Face Transformers library. The model is fine-tuned on the chemical reaction data to learn the mapping from products to reactants. To be able to use the model you need a wandb.ai profile and a generated key which is free and easy to use. After the first run, the given error message guide you to the homepage. 
+The project uses a [BART](https://huggingface.co/facebook/bart-large) (Bidirectional and Auto-Regressive Transformers) model from the Hugging Face Transformers library. The model is fine-tuned on the chemical reaction data to learn the mapping from products to reactants. To be able to use the model you need a wandb.ai profile and a generated key which is free and easy to use. After the first run, the given error message guide you to the homepage in case of lack of the key.
 
 ## Evaluation
 
