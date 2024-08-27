@@ -17,13 +17,6 @@ The project uses a [BART](https://huggingface.co/facebook/bart-large) (Bidirecti
 4. Evaluation: The model's performance is evaluated on a validation set.
 5. Prediction: The trained model is used to predict reactants for new product SMILES.
 
-## Requirements
-
-- Python 3.10+
-- PyTorch
-- Transformers
-- Pandas
-- Accelerate
 
 ## Usage
 
