@@ -39,4 +39,8 @@ The model's performance is evaluated using metrics such as validation loss. You 
 
 ## Further resources to explore the topic:  
 :alien: [reaction_prediction_seq2seq](https://github.com/pandegroup/reaction_prediction_seq2seq)
+:mechanical_arm:[ai4chem_course](https://github.com/schwallergroup/ai4chem_course/blob/main/notebooks/08%20-%20Retrosynthesis/template_based.ipynb)
+:mage:[G2Retro](https://github.com/ninglab/G2Retro/blob/master/model/preprocess.py)
+:supervillain_man:[LocalRetro](https://github.com/kaist-amsg/LocalRetro)
+:zombie:[aizynthfinder from AstraZeneka](https://github.com/kheyer/Retrosynthesis-Prediction)
 
